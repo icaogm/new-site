@@ -1,2 +1,109 @@
-# new-site
-New personal website repository
+document.addEventListener('DOMContentLoaded', () => {
+  const footerWrap = document.querySelector('.footer-wrap');
+  if (footerWrap && !document.querySelector('.site-footer .year')) {
+    const year = document.createElement('span');
+    year.className = 'year';
+    year.textContent = `© ${new Date().getFullYear()}`;
+    footerWrap.appendChild(year);
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

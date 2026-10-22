@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connie Choi — Portfolio</title>
+    <meta
+      name="description"
+      content="Connie Choi — Art Director, Game Artist, Book Illustrator, and visual storyteller."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav">
+          <a href="#top" class="brand" aria-label="Connie Choi home">Connie Choi</a>
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a href="mailto:hello@connie-choi.com" class="nav-cta">hello@connie-choi.com</a>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Art Director / Game Artist / Book Illustrator</p>
+              <h1>I make visuals that feel alive.</h1>
+              <p class="intro">
+                I’m Connie Choi, a visual storyteller creating art across games,
+                books, branding, and editorial work. I’ve helped ship over 20 games,
+                built playful worlds, and crafted memorable imagery for people to connect with.
+              </p>
+              <div class="hero-actions">
+                <a href="#work" class="button primary">View work</a>
+                <a href="#contact" class="button secondary">Contact</a>
+              </div>
+              <ul class="mini-stats" aria-label="Career highlights">
+                <li><span>20+</span><small>games shipped</small></li>
+                <li><span>10+</span><small>years creating</small></li>
+                <li><span>3</span><small>disciplines</small></li>
+              </ul>
+            </div>
+
+            <div class="hero-visual" aria-label="Portfolio visual">
+              <div class="portrait-card">
+                <div class="portrait-frame">
+                  <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                    alt="Creative studio workspace"
+                  />
+                </div>
+                <div class="floating-note">
+                  <span class="tag">Selected</span>
+                  <strong>Rooster • Kimono • Toronto Scenes</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="projects">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Selected work</p>
+              <h2>Portfolio highlights</h2>
+            </div>
+
+            <div class="project-grid">
+              <article class="project-card feature-card">
+                <div class="project-image image-one">
+                  <div class="project-badge">Game</div>
+                </div>
+                <div class="project-copy">
+                  <p class="project-type">Game Artwork</p>
+                  <h3>Rooster</h3>
+                  <p>Character art, worldbuilding, and cinematic visual design for a story-driven adventure.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image image-two">
+                  <div class="project-badge">Illustration</div>
+                </div>
+                <div class="project-copy">
+                  <p class="project-type">Book Illustration</p>
+                  <h3>Kimono</h3>
+                  <p>Colour-rich storytelling and editorial illustration inspired by movement and cultural texture.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image image-three">
+                  <div class="project-badge">Editorial</div>
+                </div>
+                <div class="project-copy">
+                  <p class="project-type">Brand & Culture</p>
+                  <h3>Toronto Scenes</h3>
+                  <p>Vibrant visual identity work shaped by urban energy, colour, and memorable narrative moments.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image image-four">
+                  <div class="project-badge">Character</div>
+                </div>
+                <div class="project-copy">
+                  <p class="project-type">Game Design</p>
+                  <h3>Bike Game</h3>
+                  <p>Playful character concepts and exploratory visuals designed for a light, lively game experience.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image image-five">
+                  <div class="project-badge">Visuals</div>
+                </div>
+                <div class="project-copy">
+                  <p class="project-type">Icons & Avatars</p>
+                  <h3>Who Wants To Be A Millionaire</h3>
+                  <p>Friendly, highly readable iconography and character work tailored for interactive entertainment.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image image-six">
+                  <div class="project-badge">Brand</div>
+                </div>
+                <div class="project-copy">
+                  <p class="project-type">Creative Direction</p>
+                  <h3>Campaign Art</h3>
+                  <p>Visual systems and campaign assets balancing storytelling, charm, and strong brand personality.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="about">
+          <div class="container about-grid">
+            <div class="about-copy">
+              <p class="eyebrow">About</p>
+              <h2>Creative direction with heart, clarity, and imagination.</h2>
+              <p>
+                My work lives at the intersection of visual storytelling, game art, and culture-driven design.
+                I create illustrations, worlds, and brands that feel tactile, expressive, and human.
+              </p>
+              <p>
+                From indie games to book projects and editorial work, I aim to make visuals that spark emotion,
+                create connection, and support the story behind every idea.
+              </p>
+            </div>
+
+            <div class="about-panel">
+              <div class="panel-card">
+                <h3>Expertise</h3>
+                <ul>
+                  <li>Concept art</li>
+                  <li>Character design</li>
+                  <li>Book illustration</li>
+                  <li>Brand art direction</li>
+                  <li>Game visuals</li>
+                  <li>Editorial design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="site-footer">
+        <div class="container footer-wrap">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s make something beautiful.</h2>
+          </div>
+          <a href="mailto:hello@connie-choi.com" class="button primary">hello@connie-choi.com</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
