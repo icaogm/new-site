@@ -1,109 +1,17 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const footerWrap = document.querySelector('.footer-wrap');
-  if (footerWrap && !document.querySelector('.site-footer .year')) {
-    const year = document.createElement('span');
-    year.className = 'year';
-    year.textContent = `© ${new Date().getFullYear()}`;
-    footerWrap.appendChild(year);
-  }
-});
+# Connie Choi-inspired portfolio
 
+This repository contains a static portfolio landing page inspired by Connie Choi's site.
 
+## Run locally
 
+Open `index.html` directly in a browser, or run a local server from the project folder:
 
+```bash
+python3 -m http.server 8000
+```
 
+Then visit:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```text
+http://localhost:8000
+```
